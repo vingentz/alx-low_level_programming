@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Main: entry point for the program
- * print and that piece of art is useful
+ * Main - program entry point
  * Return: 1
  */
 int main(void)
