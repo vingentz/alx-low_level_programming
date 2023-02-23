@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  * print_diagonal - print character '\' n times
- *   * @n: number of characters to draw
- *    */
+ * print_diagonal - print character '\' n times
+ * @n: number of characters to draw
+ */
 
 void print_diagonal(int n)
 {
@@ -16,10 +16,10 @@ void print_diagonal(int n)
 		{
 			for (j = 1; j < i; j++)
 				_putchar(' ');
-				_putchar('\\');
-				_putchar('\n');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
 	else
-	_putchar('\n');
+		_putchar('\n');
 }
