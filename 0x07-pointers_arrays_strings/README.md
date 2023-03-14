@@ -1,4 +1,4 @@
-# More Pointers, Arrays & Strings
+# Even More Pointers, Arrays & Strings
 ---
 
 ### [0. memset](./0-memset.c)
