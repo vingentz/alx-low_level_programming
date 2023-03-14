@@ -26,11 +26,11 @@
 * A function that returns the natural square root of a number.
 	- If n does not have a natural square root, the function should return -1
 
-### [6. Inception. Is it possible?] (./6-is_prime_number.c)
+### [6. Inception. Is it possible?](./6-is_prime_number.c)
 * A function that returns 1 if the input integer is a prime number, otherwise return 0.
 
 
-### [7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything] (./100-is_palindrome.c)
+### [7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything](./100-is_palindrome.c)
 * A function that returns 1 if a string is a palindrome and 0 if not.
 	- An empty string is not a palindrome.
 
