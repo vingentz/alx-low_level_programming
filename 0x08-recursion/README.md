@@ -22,7 +22,7 @@
 	- P/S: If y is lower than 0, the function should return -1
 
 
-### [5. Your subconscious is looking for the dreamer](./5-sqrt_recursion)
+### [5. Your subconscious is looking for the dreamer](./5-sqrt_recursion.c)
 * A function that returns the natural square root of a number.
 	- If n does not have a natural square root, the function should return -1
 
