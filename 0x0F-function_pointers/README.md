@@ -21,7 +21,7 @@
 	- If size <= 0, return -1.
 
 
-### [3. A goal is not always meant to be reached, it often serves simply as something to aim at](./3-function_like_macro.h)
+### [3. A goal is not always meant to be reached, it often serves simply as something to aim at](./3-main.c)
 * A program that performs simple operations.
 	- You are allowed to use the standard library
 	- Usage: calc num1 operator num2
@@ -70,8 +70,17 @@
 		- You are allowed to use a maximum of 3 if statements
 
 
-### [4. SUM](./4-sum.h)
-* A function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+### [4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker](./100-main_opcodes.c)
+* A a program that prints the opcodes(Operation code) of its own main function.
+	- Usage: ./main number_of_bytes
+	- Output format:
+		- the opcodes should be printed in hexadecimal, lowercase
+		- each opcode is two char long
+		- listing ends with a new line
+	- You are allowed to use printf and atoi
+	- You have to use atoi to convert the argument to an int
+	- If the number of argument is not the correct one, print Error, followed by a new line, and exit with the status 1
+	- If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
 
 
 ---
