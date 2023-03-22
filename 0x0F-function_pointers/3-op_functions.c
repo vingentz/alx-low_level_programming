@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- * op_add - add two integers
+ * op_add - struct op
+ *
  * @a: integer one
  * @b: integer two
  * Return: sum
@@ -12,7 +13,8 @@ int op_add(int a, int b)
 	return (a + b);
 }
 /**
- * op_sub - subtract two integers
+ * op_sub - struct op
+ *
  * @a: integer one
  * @b: integer two
  * Return: difference
@@ -22,7 +24,8 @@ int op_sub(int a, int b);
 	return (a - b);
 }
 /**
- * op_mul - multiply two integers
+ * op_mul - struct op
+ *
  * @a: integer one
  * @b: integer two
  * Return: product
@@ -32,7 +35,8 @@ int op_mul(int a, int b);
 	return (a * b);
 }
 /**
- * op_div - divide two integers
+ * op_div - struct op
+ *
  * @a: integer one
  * @b: integer two
  * Return: result
@@ -47,7 +51,8 @@ int op_div(int a, int b);
 	return (a / b);
 }
 /**
- * op_mod - divided two integers and show remainder
+ * op_mod - struct op
+ *
  * @a: integer one
  * @b: integer two
  * Return: remainder

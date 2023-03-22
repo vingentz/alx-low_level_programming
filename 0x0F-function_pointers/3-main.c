@@ -29,11 +29,12 @@ int main(int argc, char **argv)
 	}
 
 	if ((argv[2][0] != '+' && argv[2][0] != '-' && argv[2][0] != '/' &&
-		argv[2][0] != '*' && argv[2][0] != '%') || strlen(argv[2]) != 1)
-		{
-			printf("Error\n");
-			exit(99);
-		}
+				argv[2][0] != '*' && argv[2][0] != '%') || strlen(argv[2]) != 1)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+
 	inta = atoi(argv[1]);
 	intb = atoi(argv[3]);
 
