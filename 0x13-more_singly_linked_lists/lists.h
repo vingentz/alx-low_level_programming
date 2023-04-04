@@ -37,7 +37,7 @@ size_t listint_len(const listint_t *h);
  * add_nodeint - add node at the beginning of the linked list
  * @head: pointer to the head of the linked list
  * @n: integer to add
- * Return: Address of the new elementNumber of nodes in the linked list
+ * Return: Address of the new element
  */
 listint_t *add_nodeint(listint_t **head, const int n);
 
