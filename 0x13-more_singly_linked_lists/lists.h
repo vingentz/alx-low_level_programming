@@ -61,7 +61,7 @@ void free_listint(listint_t *head);
  * @head: pointer to the head of the linked list
  * Return: Nothing
  */
-void free_listint2(listint_t *head);
+void free_listint2(listint_t **head);
 
 /*
  * pop_listint - deletes head node of a linked list
