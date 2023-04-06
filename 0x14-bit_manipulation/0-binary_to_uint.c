@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	int xters = 0;
 	unsigned int ans = 0;
 
-	if (b == 0)
+	if (b == NULL)
 		return (ans);
 	while (b[xters] != '\0')
 		xters++;
@@ -21,7 +21,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[k])
 	{
 		if ((b[k] != '0') && (b[k] != '1'))
-			return (ans);
+			return (0);
 		if (b[k] == '1')
 			ans += (1 * (1 << xters));
 		k++;
