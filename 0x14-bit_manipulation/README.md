@@ -47,8 +47,10 @@
 	- You are not allowed to use the % or / operators.
 
 
-### [6. ](./6-.c)
-* A function that 
+### [6. Endianness](./100-get_endianness.c)
+* A function that checks the endianness.
+	- Prototype: int get_endianness;
+	- Returns: 0 if big endian, 1 if little endian
 
 
 ### [7. ](./7-.c)
