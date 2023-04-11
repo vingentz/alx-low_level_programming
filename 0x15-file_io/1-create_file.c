@@ -26,8 +26,9 @@ int create_file(const char *filename, char *text_content)
 
 	byt = write(newfile, text_content, len);
 
-	if (byt < 0)
+	if (newfile == -1 || byt == -1)
 		return (-1);
+
 	close(newfile);
 
 	return (-1);
