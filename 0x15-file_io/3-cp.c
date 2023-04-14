@@ -84,7 +84,8 @@ int main(int ac, char **cd)
 	copy_from = cd[1];
 	copy_to = cd[2];
 	original = open(copy_from, O_RDONLY);
-	originalcopy = open(copy_to, O_CREAT | O_WRONLY | O_TRUNC, 664);
+	originalcopy = open(copy_to, O_CREAT | O_WRONLY | O_TRUNC | S_IRUSR | S_IWUSR,
+		       S_IRGRP	| S_IWGRP | S_IROTH);
 	for (size_of_read = 1; size_of_read > 0;)
 	{
 		size_of_read = read_content(copy_from, &buffer, original);
