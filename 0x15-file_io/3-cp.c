@@ -89,7 +89,7 @@ int main(int ac, char **cd)
 	{
 		size_of_read = read_content(copy_from, &buffer, original);
 		if (!size_of_read)
-		break;
+			break;
 		cp(copy_to, originalcopy, buffer, size_of_read);
 	}
 	free(buffer);
