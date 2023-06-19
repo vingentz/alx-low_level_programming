@@ -6,7 +6,7 @@ int add(int a, int b)
 	return (a + b);
 }
 // Subtraction
-int sub(double a, double b)
+int sub(int a, int b)
 {
 	return (a - b);
 }
