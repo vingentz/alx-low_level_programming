@@ -25,9 +25,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	for (k = index; ht->array[k]; k++)
 	{
-		if (strcmp(ht->array[i]->key, key) == 0)
+		if (strcmp(ht->array[k]->key, key) == 0)
 		{
-			free(ht->array[i]->value);
+			free(ht->array[k]->value);
 			ht->array[k]->value = nw_value;
 			return (1);
 		}
